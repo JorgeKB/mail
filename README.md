@@ -52,17 +52,11 @@ If you're already using a dependency manager, like [dep][dep], use the following
 import path:
 
 ```
-github.com/go-mail/mail
+github.com/jorgeKB/mail
 ```
 
 If you *aren't* using vendoring, `go get` the [Gopkg.in](http://gopkg.in)
 import path:
-
-```
-gopkg.in/mail.v2
-```
-
-[dep]: https://github.com/golang/dep#readme
 
 ## Examples
 
@@ -84,7 +78,7 @@ package main
 import (
 	"crypto/tls"
 
-	"gopkg.in/mail.v2"
+	"github.com/jorgeKB/mail"
 )
 
 func main() {
@@ -103,7 +97,7 @@ If you're already using the original Gomail, switching is as easy as updating
 the import line to:
 
 ```
-import gomail "gopkg.in/mail.v2"
+import gomail "github.com/jorgeKB/mail"
 ```
 
 ## Contribute
